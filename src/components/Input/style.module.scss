@@ -1,0 +1,26 @@
+@import '../../config/style/variables.scss';
+@import '../../config/style/mixins.scss';
+
+.inputBlock {
+    @include shadow;
+    display: flex;
+    justify-content: space-between;
+    padding: 4% 3%;
+}
+
+.input {
+    border: none;
+    outline: none;
+    width: 60%;
+}
+
+.btn {
+    background-color: $light-grey;
+    border-radius: 50%;
+    cursor: pointer;
+    padding: 2%;
+
+    &:hover {
+        background-color: $blue;
+    }
+}

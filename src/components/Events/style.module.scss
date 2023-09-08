@@ -1,0 +1,38 @@
+@import '../../config/style/variables.scss';
+@import '../../config/style/mixins.scss';
+
+.events {
+    @include shadow;
+    padding: 1%;
+}
+
+.event {
+    border: 1px solid #CDCDCD;
+    display: flex;
+    border-radius: 3px;
+    margin-bottom: 2%;
+    padding: 1%;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: 20px;
+}
+
+.optional {
+    display: flex;
+    justify-content: space-between;
+    width: 120%;
+    font-size: 13px;
+}
+
+.item {
+    display: flex;
+    align-content: center;
+
+    img {
+        margin-right: 5px;
+    }
+}

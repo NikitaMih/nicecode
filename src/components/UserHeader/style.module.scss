@@ -1,0 +1,21 @@
+@import '../../config/style/variables.scss';
+@import '../../config/style/mixins.scss';
+
+.header {
+    @include shadow;
+    display: flex;
+    padding: 3%;
+}
+
+.img {
+    margin-right: 12px;
+}
+
+.title {
+    font-size: 20px;
+    margin-bottom: 2%;
+}
+
+.subtitle {
+    font-size: 16px;
+}

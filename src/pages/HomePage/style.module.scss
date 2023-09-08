@@ -1,0 +1,59 @@
+@import '../../config/style/variables.scss';
+
+.wrapper {
+    background-color: $light-grey;
+    height: 100%;
+}
+
+.content {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    padding: 2% 0;
+}
+
+.header {
+    background-color: $white;
+    filter: drop-shadow(0px 0px 3px #616F82);
+    min-width: 100%;
+    height: 50px;
+}
+
+.user {
+    width: 100%;
+    margin-left: 30px;
+}
+
+.switcher {
+    display: flex;
+    justify-content: space-between;
+    padding: 1%;
+}
+
+.case {
+    display: flex;
+
+    li {
+        cursor: pointer;
+    }
+}
+
+.separate {
+    margin: 0 2%;
+}
+
+.add {
+    color: $grey;
+    cursor: pointer;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 20%;
+}
+
+.plus {
+    border-radius: 50%;
+    border: 1.5px solid $grey;
+    padding: 2%;
+    margin-left: 5px;
+}

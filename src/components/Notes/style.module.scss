@@ -1,0 +1,16 @@
+@import '../../config/style/variables.scss';
+@import '../../config/style/mixins.scss';
+
+.notes {
+    @include shadow;
+    padding: 1%;
+}
+
+.note {
+    margin-bottom: 2%;
+}
+
+.data {
+    color: $grey;
+    margin-right: 10px;
+}
